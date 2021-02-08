@@ -52,7 +52,7 @@ public class Celery {
      * @param queue routing tag (specifies into which Rabbit queue the messages will go)
      */
     @Builder
-    private Celery(final String brokerUri,
+    public Celery(final String brokerUri,
                    @Nullable final String queue,
                    @Nullable final String backendUri,
                    @Nullable final ExecutorService executor) {
