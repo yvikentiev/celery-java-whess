@@ -1,0 +1,7 @@
+com.geneea.celery
+com.geneea.celery.annotationprocessor
+com.geneea.celery.backends
+com.geneea.celery.backends.rabbit
+com.geneea.celery.brokers
+com.geneea.celery.brokers.rabbit
+com.geneea.celery.spi
